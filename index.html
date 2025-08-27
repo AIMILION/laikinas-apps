@@ -11,24 +11,23 @@
 <body>
   <!-- Header -->
   <header class="site-header" role="banner">
-    <!-- Viršutinis kairys kampas: AIMILION -->
-    <a id="brand" class="brand" href="#" aria-label="Open AIMILION Facebook in a new tab">AIMILION</a>
+    <!-- Top-left brand -->
+    <a id="brand" class="brand" href="https://facebook.com/aimilion" target="_blank" rel="noopener" aria-label="Open AIMILION Facebook in a new tab">
+      AIMILION
+    </a>
   </header>
 
-  <!-- Pagrindas / Hero -->
+  <!-- Hero -->
   <main class="hero" role="main" aria-labelledby="hero-title">
-    <h1 id="hero-title" class="hero-title">
-      Something powerful is coming soon.
-    </h1>
+    <h1 id="hero-title" class="hero-title">Something powerful is coming soon.</h1>
   </main>
 
-  <!-- Poraštė -->
+  <!-- Footer -->
   <footer class="site-footer" role="contentinfo">
     <nav class="footer-links" aria-label="Footer">
       <ul>
         <li>
-          <a id="fb-link" href="#" target="_blank" rel="noopener" aria-label="AIMILION on Facebook">
-            <!-- Paprastas FB piktogramos SVG -->
+          <a id="fb-link" href="https://facebook.com/aimilion" target="_blank" rel="noopener" aria-label="AIMILION on Facebook">
             <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
               <path d="M22 12.06C22 6.51 17.52 2 12 2S2 6.51 2 12.06c0 4.99 3.66 9.13 8.44 9.94v-7.03H8.08v-2.91h2.36V9.41c0-2.34 1.39-3.63 3.52-3.63.99 0 2.02.18 2.02.18v2.23h-1.14c-1.12 0-1.47.7-1.47 1.42v1.7h2.5l-.4 2.91h-2.1V22c4.78-.81 8.44-4.95 8.44-9.94z"/>
             </svg>
@@ -53,13 +52,14 @@
         </li>
       </ul>
 
-      <!-- “Saugumo” nuorodos FB registracijai (URL’ai nurodyti, atsidaro naujame lange) -->
+      <!-- Policies (use folder-based routes) -->
       <ul aria-label="Policies">
-        <li><a href="https://aimilion.com/privacy" target="_blank" rel="noopener">Privacy Policy</a></li>
-        <li><a href="https://aimilion.com/terms" target="_blank" rel="noopener">Terms of Service</a></li>
-        <li><a href="https://aimilion.com/data-deletion" target="_blank" rel="noopener">User Data Deletion</a></li>
+        <li><a href="./privacy/" target="_blank" rel="noopener">Privacy Policy</a></li>
+        <li><a href="./terms/" target="_blank" rel="noopener">Terms of Service</a></li>
+        <li><a href="./data-deletion/" target="_blank" rel="noopener">User Data Deletion</a></li>
       </ul>
     </nav>
+
     <div class="legal">
       <small>© <span id="year"></span> AIMILION. All rights reserved.</small>
     </div>
