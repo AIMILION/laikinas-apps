@@ -25,6 +25,7 @@ body {
 .site-header{
   display:flex;
   align-items:center;
+  justify-content:flex-end;
   gap:.75rem;
   padding: 16px 20px;
 }
@@ -44,6 +45,13 @@ body {
   outline-offset: 3px;
   border-radius: 6px;
   padding: 2px 4px;
+}
+
+/* Logo image size */
+.logo img{
+  width: 80px;
+  height: 80px;
+  display: block;
 }
 
 /* ---------- Hero ---------- */
