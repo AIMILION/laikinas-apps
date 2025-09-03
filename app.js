@@ -1,14 +1,7 @@
 // Pakeisk į savo FB puslapio URL
 const FACEBOOK_URL = "https://www.facebook.com/aimilion"; // <-- Įrašyk teisingą
 
-// “AIMILION” viršuje: hover pilkėja (CSS), click -> FB
-const brand = document.getElementById("brand");
-if (brand) {
-  brand.addEventListener("click", (e) => {
-    e.preventDefault();
-    window.open(FACEBOOK_URL, "_blank", "noopener");
-  });
-}
+// Pašalinta: nebenaudojamas 'brand' paspaudimas
 
 // Footer FB nuoroda
 const fbLink = document.getElementById("fb-link");
